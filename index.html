@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fuente del Proyecto Raleway -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mi Portafolio</title>
+  </head>
+
+  <body>
+    <!-- Menú -->
+    <header class="cabecera">
+      <div class="cabecera__contenedor-logo-titulo">
+        <img class="cabecera__logo" src="assets/vector.png" alt="Logo" />
+        <h1 class="cabecera__titulo">Alura Latam</h1>
+      </div>
+      <nav class="navegacion">
+        <ul class="navegacion__lista">
+          <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+          <li class="navegacion__elemento">
+            <a href="#habilidades">Habilidades</a>
+          </li>
+          <li class="navegacion__elemento">
+            <a href="#aficiones">Aficiones</a>
+          </li>
+          <li class="navegacion__elemento">
+            <a href="#formacion">Formación</a>
+          </li>
+          <li class="navegacion__elemento">
+            <a href="#proyectos">Proyectos</a>
+          </li>
+          <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <section class="presentacion">
+      <img
+        class="presentacion__foto"
+        src="assets/profile.png"
+        alt="Foto de perfil"
+      />
+      <div class="presentacion__contenedor">
+        <h2 class="presentacion__titulo">
+          Hola, mi nombre es Alura Latam y construyo páginas web
+        </h2>
+        <p class="presentacion__subtitulo">
+          Soy formada en... lorem ipsum sit amet consectetur y actualmente estoy
+          participando del proyecto Oracle ONE en Alura Latam.
+        </p>
+        <ul class="redes">
+          <li class="redes__img">
+            <a href="">Github <img src="assets/arrow.png" alt="Flecha" /></a>
+          </li>
+          <li class="redes__img">
+            <a href="">Linkedin <img src="assets/arrow.png" alt="Flecha" /></a>
+          </li>
+          <li class="redes__img">
+            <a href="">Instagram <img src="assets/arrow.png" alt="Flecha" /></a>
+          </li>
+          <li class="redes__img">
+            <a href="">Currículo <img src="assets/arrow.png" alt="Flecha" /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section class="sobre-mi" id="sobre-mi">
+      <h2 class="sobre-mi__titulo">Sobre mí</h2>
+      <div class="sobre-mi__contenedor-texto">
+        <p class="sobre-mi__texto">
+          Soy estudiante de Ingeniería en Tecnologías Computacionales en el
+          Tecnológico de Monterrey, Campus Estado de México, con interés en
+          diseño web, programación, dibujo y fotografía. He participado en
+          proyectos sociales y tecnológicos, como la creación de materiales para
+          adultos mayores sin experiencia en computación, el diseño de una
+          aplicación para distribución agrícola y la mejora de un videojuego de
+          capacitación.
+        </p>
+        <p>
+          También he colaborado en proyectos creativos, como ilustraciones para
+          la revista ENCOLPIUM y concursos de diseño artístico, logrando
+          reconocimientos destacados. Actualmente, desarrollo una rotoscopia
+          inspirada en el Día de la Danza.
+        </p>
+      </div>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section class="habilidades" id="habilidades">
+      <h2 class="habilidades__titulo">Habilidades</h2>
+      <ul class="habilidades__lista">
+        <li class="habilidades__elemento">
+          <img class="habilidades__icono" src="assets/html.png" alt="HTML" />
+          <p class="habilidades__nombre">HTML 5</p>
+        </li>
+        <li class="habilidades__elemento">
+          <img
+            class="habilidades__icono"
+            src="assets/js_icon.png"
+            alt="JavaScript"
+          />
+          <p class="habilidades__nombre">JavaScript</p>
+        </li>
+        <li class="habilidades__elemento">
+          <img class="habilidades__icono" src="assets/php_icon.png" alt="PHP" />
+          <p class="habilidades__nombre">PHP</p>
+        </li>
+        <li class="habilidades__elemento">
+          <img
+            class="habilidades__icono"
+            src="assets/nodejs_icon.png"
+            alt="Node.js"
+          />
+          <p class="habilidades__nombre">Node.js</p>
+        </li>
+        <li class="habilidades__elemento">
+          <img
+            class="habilidades__icono"
+            src="assets/react_icon.png"
+            alt="React"
+          />
+          <p class="habilidades__nombre">React</p>
+        </li>
+        <li class="habilidades__elemento">
+          <img class="habilidades__icono" src="assets/css_icon.png" alt="CSS" />
+          <p class="habilidades__nombre">CSS</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Sección de Aficiones -->
+    <section class="aficiones" id="aficiones">
+      <h2 class="aficiones__titulo">Aficiones</h2>
+      <ul class="aficiones__lista">
+        <li class="aficiones__elemento">
+          <img
+            class="aficiones__icono"
+            src="assets/skate_icon.png"
+            alt="Patinaje"
+          />
+          <p class="aficiones__nombre">Patinaje</p>
+        </li>
+        <li class="aficiones__elemento">
+          <img
+            class="aficiones__icono"
+            src="assets/guitar_icon.png"
+            alt="Tocar bajo"
+          />
+          <p class="aficiones__nombre">Tocar bajo</p>
+        </li>
+        <li class="aficiones__elemento">
+          <img
+            class="aficiones__icono"
+            src="assets/headphones_icon.png"
+            alt="Oír música"
+          />
+          <p class="aficiones__nombre">Oír música</p>
+        </li>
+        <li class="aficiones__elemento">
+          <img
+            class="aficiones__icono"
+            src="assets/tv_icon.png"
+            alt="Ver series"
+          />
+          <p class="aficiones__nombre">Ver series</p>
+        </li>
+        <li class="aficiones__elemento">
+          <img
+            class="aficiones__icono"
+            src="assets/forkspoon_icon.png"
+            alt="Cocinar"
+          />
+          <p class="aficiones__nombre">Cocinar</p>
+        </li>
+        <li class="aficiones__elemento">
+          <img
+            class="aficiones__icono"
+            src="assets/camera_icon.png"
+            alt="Tomar fotos"
+          />
+          <p class="aficiones__nombre">Tomar fotos</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="formacion" id="formacion">
+      <h2 class="formacion__titulo">Formación académica</h2>
+      <ul class="formacion__lista">
+        <li class="formacion__elemento">
+          <div class="formacion__imagen-contenedor">
+            <img
+              class="formacion__icono"
+              src="assets/ufpr_logo.png"
+              alt="UFPR"
+            />
+          </div>
+          <div>
+            <h3 class="formacion__nombre">Análisis de datos</h3>
+            <p class="formacion__detalle">2018 - UFPR</p>
+          </div>
+        </li>
+        <li class="formacion__elemento">
+          <div class="formacion__imagen-contenedor">
+            <img
+              class="formacion__icono"
+              src="assets/alura_logo.png"
+              alt="Alura"
+            />
+          </div>
+          <div>
+            <h3 class="formacion__nombre">Formación en UX Design</h3>
+            <p class="formacion__detalle">2019 - Alura</p>
+          </div>
+        </li>
+        <li class="formacion__elemento">
+          <div class="formacion__imagen-contenedor">
+            <img
+              class="formacion__icono"
+              src="assets/ufrj_logo.png"
+              alt="UFRJ"
+            />
+          </div>
+
+          <div>
+            <h3 class="formacion__nombre">Posgrado en diseño</h3>
+            <p class="formacion__detalle">En curso - UFRJ</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section class="proyectos" id="proyectos">
+      <h2 class="proyectos__titulo">Experiencia Profesional</h2>
+      <div class="proyectos__contenedor">
+        <img
+          class="proyectos__imagen"
+          src="assets/encriptador.png"
+          alt="encriptador"
+        />
+        <div class="proyectos__contenedor-descripcion">
+          <h3 class="proyectos__nombre">Encriptador de texto</h3>
+          <p class="proyectos__descripcion">Challenge Alura</p>
+          <a
+            class="proyectos__boton"
+            href="https://github.com/PGAM-0408/Alura-Challenge-Encriptador.git"
+            target="_blank"
+            >Repositorio</a
+          >
+        </div>
+      </div>
+      <div class="proyectos__contenedor">
+        <img
+          class="proyectos__imagen"
+          src="assets/ContraseñasGenerador.png"
+          alt="generador-contraseñas"
+        />
+        <div class="proyectos__contenedor-descripcion">
+          <h3 class="proyectos__nombre">Generador de contraseñas</h3>
+          <p class="proyectos__descripcion">Inmersión Java</p>
+          <a
+            class="proyectos__boton"
+            href="https://github.com/PGAM-0408/GeneradorPasswords.git"
+            target="_blank"
+            >Repositorio</a
+          >
+        </div>
+      </div>
+      <div class="proyectos__contenedor">
+        <img
+          class="proyectos__imagen"
+          src="assets/control de gastos.png"
+          alt="control-de-gastos"
+        />
+        <div class="proyectos__contenedor-descripcion">
+          <h3 class="proyectos__nombre">Control de gastos</h3>
+          <p class="proyectos__descripcion">Inmersión Java</p>
+          <a
+            class="proyectos__boton"
+            href="https://github.com/PGAM-0408/Control-De-Gastos.git"
+            target="_blank"
+            >Repositorio</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contacto" id="contacto">
+      <img
+        class="contacto__imagen"
+        src="assets/contact_image.png"
+        alt="Contacto"
+      />
+      <div class="contacto__contenedor">
+        <h2 class="contacto__titulo">Contacto</h2>
+        <p class="contacto__texto">
+          Si tienes alguna pregunta o sugerencia, no dudes en contactarme
+        </p>
+        <form class="contacto__formulario">
+          <input
+            class="contacto__campo"
+            id="nombre"
+            type="text"
+            placeholder="Nombre"
+          />
+          <input
+            class="contacto__campo"
+            id="email"
+            type="email"
+            placeholder="Correo Electrónico"
+          />
+          <textarea
+            class="contacto__campo-contacto__campo--textarea"
+            id="mensaje"
+            placeholder="Mensaje"
+          ></textarea>
+          <button
+            class="contacto__boton"
+            type="submit"
+            onclick="validarFormulario()"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+  <footer>
+    <p class="footer__texto"> 
+      &copy; Todos los derechos reservados
+    </p>
+  </footer>
+</html>
